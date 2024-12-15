@@ -1,0 +1,9 @@
+body{
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+    margin-top: 160px;
+}
+
+html{
+    scroll-behavior: smooth;
+}

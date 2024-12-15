@@ -1,0 +1,157 @@
+.short-intro{
+    display: flex; 
+    flex-direction: column;
+}
+
+.short-intro p{
+    font-size: 80px;
+    margin: 0px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+@media (min-width: 425px) and (max-width: 960px){
+    .short-intro p{
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 425px){
+    .short-intro p{
+        font-size: 30px;
+    }
+}
+
+.info-parent{
+    display: flex; 
+    margin-top: 120px; 
+    justify-content: right;
+}
+@media (max-width: 770px){
+    .info-parent{
+        margin-top: 80px;
+    }
+}
+
+
+.vinks-fullform{
+    margin: 0;
+    font-family: 'Space Mono';
+    font-size: 12px; 
+    margin-bottom: 40px; 
+    font-weight: bold;
+}
+
+@media (min-width: 425px) and (max-width: 960px){
+    .vinks-fullform{
+        font-size: 10px;
+    }
+}
+
+.info{
+    border: none;
+    width: 700px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+@media (min-width: 425px) and (max-width: 960px){
+    .info{
+        width: 450px;
+    }
+}
+
+.details{
+    margin: 0;
+    font-family: 'Space Mono';
+    font-size: 25px;
+    line-height: 50px;
+}
+
+
+@media (min-width: 425px) and (max-width: 960px){
+    .details{
+        font-size: 15px;
+        line-height: 30px;
+    }
+}
+
+.selected-work{
+    margin-top: 120px;
+    padding: 10px 80px 0px 80px;
+}
+
+.intro-to-work p{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+@media (max-width: 850px){
+    .intro-to-work p{
+        font-size: 30px;
+    }
+}
+
+@keyframes appear {
+    from {
+      opacity: 0;
+      scale: 0.5;
+    }
+    to {
+      opacity: 1;
+      scale: 1;
+    }
+  }
+
+div {
+    animation: appear ;
+    animation-timeline: view();
+    animation-range: entry 0% cover 25%;
+}
+
+@media (min-width: 425px) and (max-width: 960px){
+    div{
+        animation-range: entry 0% cover 20%;
+    }
+}
+
+
+.let-work p{
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+@media (max-width: 850px){
+    .let-work p{
+        font-size: 50px;
+    }
+}
+
+.connect{
+    border: none;
+    width: 700px;  
+}
+
+@media (min-width: 425px) and (max-width: 960px){
+    .connect{
+        width: 450px;
+    }
+}
+
+.connect p{
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+@media (min-width: 425px) and (max-width: 960px){
+    .connect p{
+        font-size: 20px;
+    }
+}
