@@ -18,9 +18,7 @@
   margin: 0;
   padding: 0;
 }
-html{
-  font-family: Poppins;
-}
+
 body{
   background-color: var(--base-color);
   color: var(--text-color);
@@ -41,7 +39,6 @@ button{
   font-weight: 500;
   cursor: pointer;
 }
-
 
 #theme-switch{
   height: 50px;
@@ -65,4 +62,19 @@ button{
 }
 .darkmode #theme-switch svg:last-child{
   display: block;
+}
+
+@media (min-width: 350px) and (max-width: 570px){
+  #theme-switch{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 570px){
+  #theme-switch svg{
+    width: 10px;
+    height: 10px;
+  }
 }
