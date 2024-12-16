@@ -436,6 +436,8 @@ div {
 }
 
 .linkedin{
+    color: black;
+    text-decoration: none;
     font-family: 'Space Mono'; 
     font-size: 15px;
     font-weight: bold; 
