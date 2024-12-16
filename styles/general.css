@@ -4,6 +4,12 @@ body{
     margin-top: 160px;
 }
 
+@media (min-width: 350px) and (max-width: 425px){
+    body{
+      margin-top: 80px;
+    }
+  }
+
 html{
     scroll-behavior: smooth;
 }
