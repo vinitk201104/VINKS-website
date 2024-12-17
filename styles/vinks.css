@@ -450,3 +450,13 @@ div {
         font-size: 12px;
     }
 }
+.caseStudy{
+    font-size: 15px;
+    font-family: 'Space Mono';
+}
+
+@media (min-width: 350px) and (max-width: 570px){
+    .caseStudy{
+        font-size: 6px;
+    }
+}
